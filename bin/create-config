@@ -58,6 +58,7 @@ function createConfig() {
       transport: "SMTP",
       options: {
         service: process.env.SMTP_SERVICE,
+        host: process.env.SMTP_HOST,
         port: 465,
         secure: true,
         secureConnection: true,
